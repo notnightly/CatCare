@@ -18,7 +18,8 @@ class NotificationManager {
         content.sound = .default
 
         var dateComponents = DateComponents()
-        dateComponents.hour = 21 // 9 PM
+        dateComponents.hour = 20 // 10 pm
+        dateComponents.minute = 30
 
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         let request = UNNotificationRequest(identifier: "litterReminder", content: content, trigger: trigger)

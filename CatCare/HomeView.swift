@@ -1,25 +1,37 @@
 import SwiftUI
 
 struct HomeView: View {
+    @AppStorage("lastCleaned") private var lastCleaned: Double = 0
+
+    var cleanedRecently: Bool {
+        guard lastCleaned > 0 else { return false }
+        let lastCleanedDate = Date(timeIntervalSince1970: lastCleaned)
+        return Date().timeIntervalSince(lastCleanedDate) < 86400
+    }
+
+    
     var body: some View {
         NavigationStack {
             VStack(spacing: 20) {
-                Text("Welcome, Kaju 🐾")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .padding(.top, 40)
-
-                Text("Here's how Kaju is doing today:")
-                    .font(.subheadline)
-                    .foregroundColor(.gray)
 
                 HStack(spacing: 20) {
-                    StatCard(title: "Health", value: "✔️", color: .pink)
+                    NavigationLink(destination: HealthTrackerView()) {
+                        StatCard(title: "Health", value: "✔️", color: .pink)
+                    }
                     StatCard(title: "Meals", value: "2 / 3", color: .orange)
                 }
 
                 HStack(spacing: 20) {
-                    StatCard(title: "Poop", value: "💩 Done", color: .green)
+                    if cleanedRecently {
+                        NavigationLink(destination: LitterBoxView()) {
+                            StatCard(title: "Litter", value: "Clean", color: .green)
+                        }
+                    } else {
+                        NavigationLink(destination: LitterBoxView()) {
+                            StatCard(title: "Litter", value: "Not clean", color: .green)
+                        }
+                    }
+                    
 
                     NavigationLink(destination: MoodDiaryView()) {
                         StatCard(title: "Mood", value: "😸 Happy", color: .blue)

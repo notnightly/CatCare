@@ -1,13 +1,13 @@
 import SwiftUI
 
 struct LitterBoxView: View {
-    @AppStorage("lastCleaned") private var lastCleaned: Double = 0
-    @AppStorage("cleaningHistory") private var cleaningHistoryRaw: String = ""
+    @AppStorage("lastCleaned") private var lastCleaned: Double = 0;
+    @AppStorage("cleaningHistory") private var cleaningHistoryRaw: String = "";
 
     var lastCleanedDate: Date? {
         lastCleaned == 0 ? nil : Date(timeIntervalSince1970: lastCleaned)
     }
-
+     
     var timeAgo: String {
         guard let date = lastCleanedDate else { return "Never cleaned" }
         let interval = Date().timeIntervalSince(date)
@@ -111,4 +111,5 @@ struct LitterBoxView: View {
         let minutes = Int((interval.truncatingRemainder(dividingBy: 3600)) / 60)
         return hours > 0 ? "\(hours)h \(minutes)m ago" : "\(minutes)m ago"
     }
+    
 }
