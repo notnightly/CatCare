@@ -1,20 +1,36 @@
-//
-//  ContentView.swift
-//  CatCare
-//
-//  Created by dhairy on 17/06/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Cat Care App")
+        TabView {
+            HomeView()
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+
+            HealthTrackerView()
+                .tabItem {
+                    Label("Health", systemImage: "heart.text.square")
+                }
+
+            FeedingScheduleView()
+                .tabItem {
+                    Label("Feeding", systemImage: "calendar")
+                }
+
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gearshape")
+                }
+            LitterBoxView()
+                .tabItem {
+                    Label("Litter", systemImage: "trash")
+                }
         }
-        .padding()
     }
-}
+} 
 
 #Preview {
-    ContentView()	}
+    ContentView()
+}
+

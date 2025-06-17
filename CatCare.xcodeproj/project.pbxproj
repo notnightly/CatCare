@@ -14,6 +14,13 @@
 		C689006D2E019A1B00776590 /* CatCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689006C2E019A1B00776590 /* CatCareTests.swift */; };
 		C68900772E019A1B00776590 /* CatCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900762E019A1B00776590 /* CatCareUITests.swift */; };
 		C68900792E019A1B00776590 /* CatCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900782E019A1B00776590 /* CatCareUITestsLaunchTests.swift */; };
+		C68900862E01B1D500776590 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900852E01B1D500776590 /* HomeView.swift */; };
+		C68900882E01B1F400776590 /* MoodDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900872E01B1F400776590 /* MoodDiaryView.swift */; };
+		C689008A2E01B24A00776590 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900892E01B24A00776590 /* NotificationManager.swift */; };
+		C689008C2E01B27000776590 /* HealthTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689008B2E01B27000776590 /* HealthTrackerView.swift */; };
+		C689008E2E01B28400776590 /* FeedingScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689008D2E01B28400776590 /* FeedingScheduleView.swift */; };
+		C68900902E01B29200776590 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689008F2E01B29200776590 /* SettingsView.swift */; };
+		C68900922E01B33E00776590 /* LitterBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900912E01B33E00776590 /* LitterBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		C68900722E019A1B00776590 /* CatCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68900762E019A1B00776590 /* CatCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCareUITests.swift; sourceTree = "<group>"; };
 		C68900782E019A1B00776590 /* CatCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C68900852E01B1D500776590 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C68900872E01B1F400776590 /* MoodDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryView.swift; sourceTree = "<group>"; };
+		C68900892E01B24A00776590 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		C689008B2E01B27000776590 /* HealthTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTrackerView.swift; sourceTree = "<group>"; };
+		C689008D2E01B28400776590 /* FeedingScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingScheduleView.swift; sourceTree = "<group>"; };
+		C689008F2E01B29200776590 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C68900912E01B33E00776590 /* LitterBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitterBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +109,16 @@
 			isa = PBXGroup;
 			children = (
 				C689005B2E019A1A00776590 /* CatCareApp.swift */,
+				C68900852E01B1D500776590 /* HomeView.swift */,
+				C68900872E01B1F400776590 /* MoodDiaryView.swift */,
 				C689005D2E019A1A00776590 /* ContentView.swift */,
+				C68900892E01B24A00776590 /* NotificationManager.swift */,
 				C689005F2E019A1B00776590 /* Assets.xcassets */,
 				C68900612E019A1B00776590 /* Preview Content */,
+				C689008B2E01B27000776590 /* HealthTrackerView.swift */,
+				C689008D2E01B28400776590 /* FeedingScheduleView.swift */,
+				C689008F2E01B29200776590 /* SettingsView.swift */,
+				C68900912E01B33E00776590 /* LitterBoxView.swift */,
 			);
 			path = CatCare;
 			sourceTree = "<group>";
@@ -257,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68900862E01B1D500776590 /* HomeView.swift in Sources */,
+				C68900902E01B29200776590 /* SettingsView.swift in Sources */,
+				C68900882E01B1F400776590 /* MoodDiaryView.swift in Sources */,
+				C689008A2E01B24A00776590 /* NotificationManager.swift in Sources */,
 				C689005E2E019A1A00776590 /* ContentView.swift in Sources */,
 				C689005C2E019A1A00776590 /* CatCareApp.swift in Sources */,
+				C68900922E01B33E00776590 /* LitterBoxView.swift in Sources */,
+				C689008E2E01B28400776590 /* FeedingScheduleView.swift in Sources */,
+				C689008C2E01B27000776590 /* HealthTrackerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

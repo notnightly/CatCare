@@ -1,14 +1,12 @@
-//
-//  CatCareApp.swift
-//  CatCare
-//
-//  Created by dhairy on 17/06/25.
-//
-
 import SwiftUI
 
 @main
-struct CatCareApp: App {
+struct KajuCareApp: App {
+    init() {
+        NotificationManager.shared.requestPermission()
+        NotificationManager.shared.scheduleLitterReminder()
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
