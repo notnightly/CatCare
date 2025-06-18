@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class CatCareUITestsLaunchTests: XCTestCase {
+final class KajuUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

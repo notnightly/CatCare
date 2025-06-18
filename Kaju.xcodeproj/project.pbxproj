@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C689005C2E019A1A00776590 /* CatCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689005B2E019A1A00776590 /* CatCareApp.swift */; };
+		C689005C2E019A1A00776590 /* KajuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689005B2E019A1A00776590 /* KajuApp.swift */; };
 		C689005E2E019A1A00776590 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689005D2E019A1A00776590 /* ContentView.swift */; };
 		C68900602E019A1B00776590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C689005F2E019A1B00776590 /* Assets.xcassets */; };
 		C68900632E019A1B00776590 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68900622E019A1B00776590 /* Preview Assets.xcassets */; };
-		C689006D2E019A1B00776590 /* CatCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689006C2E019A1B00776590 /* CatCareTests.swift */; };
-		C68900772E019A1B00776590 /* CatCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900762E019A1B00776590 /* CatCareUITests.swift */; };
-		C68900792E019A1B00776590 /* CatCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900782E019A1B00776590 /* CatCareUITestsLaunchTests.swift */; };
+		C689006D2E019A1B00776590 /* KajuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689006C2E019A1B00776590 /* KajuTests.swift */; };
+		C68900772E019A1B00776590 /* KajuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900762E019A1B00776590 /* KajuUITests.swift */; };
+		C68900792E019A1B00776590 /* KajuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900782E019A1B00776590 /* KajuUITestsLaunchTests.swift */; };
 		C68900862E01B1D500776590 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900852E01B1D500776590 /* HomeView.swift */; };
 		C68900882E01B1F400776590 /* MoodDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900872E01B1F400776590 /* MoodDiaryView.swift */; };
 		C689008A2E01B24A00776590 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900892E01B24A00776590 /* NotificationManager.swift */; };
@@ -41,16 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C68900582E019A1A00776590 /* CatCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C689005B2E019A1A00776590 /* CatCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCareApp.swift; sourceTree = "<group>"; };
+		C68900582E019A1A00776590 /* Kaju.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaju.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C689005B2E019A1A00776590 /* KajuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KajuApp.swift; sourceTree = "<group>"; };
 		C689005D2E019A1A00776590 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C689005F2E019A1B00776590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C68900622E019A1B00776590 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C68900682E019A1B00776590 /* CatCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C689006C2E019A1B00776590 /* CatCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCareTests.swift; sourceTree = "<group>"; };
-		C68900722E019A1B00776590 /* CatCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C68900762E019A1B00776590 /* CatCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCareUITests.swift; sourceTree = "<group>"; };
-		C68900782E019A1B00776590 /* CatCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C68900682E019A1B00776590 /* KajuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KajuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C689006C2E019A1B00776590 /* KajuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KajuTests.swift; sourceTree = "<group>"; };
+		C68900722E019A1B00776590 /* KajuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KajuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68900762E019A1B00776590 /* KajuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KajuUITests.swift; sourceTree = "<group>"; };
+		C68900782E019A1B00776590 /* KajuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KajuUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C68900852E01B1D500776590 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C68900872E01B1F400776590 /* MoodDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryView.swift; sourceTree = "<group>"; };
 		C68900892E01B24A00776590 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
@@ -88,9 +88,9 @@
 		C689004F2E019A1A00776590 = {
 			isa = PBXGroup;
 			children = (
-				C689005A2E019A1A00776590 /* CatCare */,
-				C689006B2E019A1B00776590 /* CatCareTests */,
-				C68900752E019A1B00776590 /* CatCareUITests */,
+				C689005A2E019A1A00776590 /* Kaju */,
+				C689006B2E019A1B00776590 /* KajuTests */,
+				C68900752E019A1B00776590 /* KajuUITests */,
 				C68900592E019A1A00776590 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,17 +98,17 @@
 		C68900592E019A1A00776590 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C68900582E019A1A00776590 /* CatCare.app */,
-				C68900682E019A1B00776590 /* CatCareTests.xctest */,
-				C68900722E019A1B00776590 /* CatCareUITests.xctest */,
+				C68900582E019A1A00776590 /* Kaju.app */,
+				C68900682E019A1B00776590 /* KajuTests.xctest */,
+				C68900722E019A1B00776590 /* KajuUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C689005A2E019A1A00776590 /* CatCare */ = {
+		C689005A2E019A1A00776590 /* Kaju */ = {
 			isa = PBXGroup;
 			children = (
-				C689005B2E019A1A00776590 /* CatCareApp.swift */,
+				C689005B2E019A1A00776590 /* KajuApp.swift */,
 				C68900852E01B1D500776590 /* HomeView.swift */,
 				C68900872E01B1F400776590 /* MoodDiaryView.swift */,
 				C689005D2E019A1A00776590 /* ContentView.swift */,
@@ -120,7 +120,7 @@
 				C689008F2E01B29200776590 /* SettingsView.swift */,
 				C68900912E01B33E00776590 /* LitterBoxView.swift */,
 			);
-			path = CatCare;
+			path = Kaju;
 			sourceTree = "<group>";
 		};
 		C68900612E019A1B00776590 /* Preview Content */ = {
@@ -131,29 +131,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C689006B2E019A1B00776590 /* CatCareTests */ = {
+		C689006B2E019A1B00776590 /* KajuTests */ = {
 			isa = PBXGroup;
 			children = (
-				C689006C2E019A1B00776590 /* CatCareTests.swift */,
+				C689006C2E019A1B00776590 /* KajuTests.swift */,
 			);
-			path = CatCareTests;
+			path = KajuTests;
 			sourceTree = "<group>";
 		};
-		C68900752E019A1B00776590 /* CatCareUITests */ = {
+		C68900752E019A1B00776590 /* KajuUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C68900762E019A1B00776590 /* CatCareUITests.swift */,
-				C68900782E019A1B00776590 /* CatCareUITestsLaunchTests.swift */,
+				C68900762E019A1B00776590 /* KajuUITests.swift */,
+				C68900782E019A1B00776590 /* KajuUITestsLaunchTests.swift */,
 			);
-			path = CatCareUITests;
+			path = KajuUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C68900572E019A1A00776590 /* CatCare */ = {
+		C68900572E019A1A00776590 /* Kaju */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C689007C2E019A1B00776590 /* Build configuration list for PBXNativeTarget "CatCare" */;
+			buildConfigurationList = C689007C2E019A1B00776590 /* Build configuration list for PBXNativeTarget "Kaju" */;
 			buildPhases = (
 				C68900542E019A1A00776590 /* Sources */,
 				C68900552E019A1A00776590 /* Frameworks */,
@@ -163,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = CatCare;
+			name = Kaju;
 			productName = CatCare;
-			productReference = C68900582E019A1A00776590 /* CatCare.app */;
+			productReference = C68900582E019A1A00776590 /* Kaju.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C68900672E019A1B00776590 /* CatCareTests */ = {
+		C68900672E019A1B00776590 /* KajuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C689007F2E019A1B00776590 /* Build configuration list for PBXNativeTarget "CatCareTests" */;
+			buildConfigurationList = C689007F2E019A1B00776590 /* Build configuration list for PBXNativeTarget "KajuTests" */;
 			buildPhases = (
 				C68900642E019A1B00776590 /* Sources */,
 				C68900652E019A1B00776590 /* Frameworks */,
@@ -181,14 +181,14 @@
 			dependencies = (
 				C689006A2E019A1B00776590 /* PBXTargetDependency */,
 			);
-			name = CatCareTests;
+			name = KajuTests;
 			productName = CatCareTests;
-			productReference = C68900682E019A1B00776590 /* CatCareTests.xctest */;
+			productReference = C68900682E019A1B00776590 /* KajuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C68900712E019A1B00776590 /* CatCareUITests */ = {
+		C68900712E019A1B00776590 /* KajuUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C68900822E019A1B00776590 /* Build configuration list for PBXNativeTarget "CatCareUITests" */;
+			buildConfigurationList = C68900822E019A1B00776590 /* Build configuration list for PBXNativeTarget "KajuUITests" */;
 			buildPhases = (
 				C689006E2E019A1B00776590 /* Sources */,
 				C689006F2E019A1B00776590 /* Frameworks */,
@@ -199,9 +199,9 @@
 			dependencies = (
 				C68900742E019A1B00776590 /* PBXTargetDependency */,
 			);
-			name = CatCareUITests;
+			name = KajuUITests;
 			productName = CatCareUITests;
-			productReference = C68900722E019A1B00776590 /* CatCareUITests.xctest */;
+			productReference = C68900722E019A1B00776590 /* KajuUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C68900532E019A1A00776590 /* Build configuration list for PBXProject "CatCare" */;
+			buildConfigurationList = C68900532E019A1A00776590 /* Build configuration list for PBXProject "Kaju" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -240,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C68900572E019A1A00776590 /* CatCare */,
-				C68900672E019A1B00776590 /* CatCareTests */,
-				C68900712E019A1B00776590 /* CatCareUITests */,
+				C68900572E019A1A00776590 /* Kaju */,
+				C68900672E019A1B00776590 /* KajuTests */,
+				C68900712E019A1B00776590 /* KajuUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,7 +283,7 @@
 				C68900882E01B1F400776590 /* MoodDiaryView.swift in Sources */,
 				C689008A2E01B24A00776590 /* NotificationManager.swift in Sources */,
 				C689005E2E019A1A00776590 /* ContentView.swift in Sources */,
-				C689005C2E019A1A00776590 /* CatCareApp.swift in Sources */,
+				C689005C2E019A1A00776590 /* KajuApp.swift in Sources */,
 				C68900922E01B33E00776590 /* LitterBoxView.swift in Sources */,
 				C689008E2E01B28400776590 /* FeedingScheduleView.swift in Sources */,
 				C689008C2E01B27000776590 /* HealthTrackerView.swift in Sources */,
@@ -294,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C689006D2E019A1B00776590 /* CatCareTests.swift in Sources */,
+				C689006D2E019A1B00776590 /* KajuTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C68900792E019A1B00776590 /* CatCareUITestsLaunchTests.swift in Sources */,
-				C68900772E019A1B00776590 /* CatCareUITests.swift in Sources */,
+				C68900792E019A1B00776590 /* KajuUITestsLaunchTests.swift in Sources */,
+				C68900772E019A1B00776590 /* KajuUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,12 +312,12 @@
 /* Begin PBXTargetDependency section */
 		C689006A2E019A1B00776590 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C68900572E019A1A00776590 /* CatCare */;
+			target = C68900572E019A1A00776590 /* Kaju */;
 			targetProxy = C68900692E019A1B00776590 /* PBXContainerItemProxy */;
 		};
 		C68900742E019A1B00776590 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C68900572E019A1A00776590 /* CatCare */;
+			target = C68900572E019A1A00776590 /* Kaju */;
 			targetProxy = C68900732E019A1B00776590 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -463,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nytly.CatCare;
+				PRODUCT_BUNDLE_IDENTIFIER = dhairy.Kaju;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -492,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nytly.CatCare;
+				PRODUCT_BUNDLE_IDENTIFIER = dhairy.Kaju;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -510,12 +510,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nytly.CatCareTests;
+				PRODUCT_BUNDLE_IDENTIFIER = dhairy.kajuTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatCare";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaju.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kaju";
 			};
 			name = Debug;
 		};
@@ -529,12 +529,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nytly.CatCareTests;
+				PRODUCT_BUNDLE_IDENTIFIER = dhairy.kajuTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatCare";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaju.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kaju";
 			};
 			name = Release;
 		};
@@ -546,7 +546,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nytly.CatCareUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = dhairy.kajuUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -563,7 +563,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nytly.CatCareUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = dhairy.kajuUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -575,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C68900532E019A1A00776590 /* Build configuration list for PBXProject "CatCare" */ = {
+		C68900532E019A1A00776590 /* Build configuration list for PBXProject "Kaju" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C689007A2E019A1B00776590 /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C689007C2E019A1B00776590 /* Build configuration list for PBXNativeTarget "CatCare" */ = {
+		C689007C2E019A1B00776590 /* Build configuration list for PBXNativeTarget "Kaju" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C689007D2E019A1B00776590 /* Debug */,
@@ -593,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C689007F2E019A1B00776590 /* Build configuration list for PBXNativeTarget "CatCareTests" */ = {
+		C689007F2E019A1B00776590 /* Build configuration list for PBXNativeTarget "KajuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C68900802E019A1B00776590 /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C68900822E019A1B00776590 /* Build configuration list for PBXNativeTarget "CatCareUITests" */ = {
+		C68900822E019A1B00776590 /* Build configuration list for PBXNativeTarget "KajuUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C68900832E019A1B00776590 /* Debug */,

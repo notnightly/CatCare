@@ -13,9 +13,9 @@ class NotificationManager {
 
     func scheduleLitterReminder() {
         let content = UNMutableNotificationContent()
-        content.title = "🧹 Litter Reminder"
+        content.title = "Litter Reminder!"
         content.body = "Time to clean Kaju's litter box!"
-        content.sound = .default
+        content.sound = .defaultCritical
 
         var dateComponents = DateComponents()
         dateComponents.hour = 20 // 10 pm
