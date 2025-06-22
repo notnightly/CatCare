@@ -1,10 +1,10 @@
-# Billi
+# Kaju
 
-A simple app to help track daily care for your cat
+A simple app to help track daily care for my cat, Kaju.
 
 ## Features
 
-- Change and display your cat's photo
+- Change and display the cat;s photo
 - Track feeding (wip) and litter box cleaning
 - Log mood
 - Show weather info (currently hardcoded)
