@@ -94,12 +94,14 @@ iOSInjectionProject/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
+.DS_Store
 
 
 
 
 
 
+/Kaju.xcodeproj
 
-/CatCare.xcodeproj
-/CatCare.xcodeproj
+.DS_Store
+/Kaju.xcodeproj

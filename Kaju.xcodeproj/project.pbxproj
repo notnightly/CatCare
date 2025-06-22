@@ -59,6 +59,7 @@
 		C689008D2E01B28400776590 /* FeedingScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingScheduleView.swift; sourceTree = "<group>"; };
 		C689008F2E01B29200776590 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C68900912E01B33E00776590 /* LitterBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitterBoxView.swift; sourceTree = "<group>"; };
+		C6AE39882E07C16100CD2219 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C6B109B72E07055C0003D2A9 /* KajuPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KajuPhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +91,7 @@
 		C689004F2E019A1A00776590 = {
 			isa = PBXGroup;
 			children = (
+				C6AE39882E07C16100CD2219 /* README.md */,
 				C689005A2E019A1A00776590 /* Kaju */,
 				C689006B2E019A1B00776590 /* KajuTests */,
 				C68900752E019A1B00776590 /* KajuUITests */,
