@@ -21,6 +21,7 @@
 		C689008E2E01B28400776590 /* FeedingScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689008D2E01B28400776590 /* FeedingScheduleView.swift */; };
 		C68900902E01B29200776590 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C689008F2E01B29200776590 /* SettingsView.swift */; };
 		C68900922E01B33E00776590 /* LitterBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68900912E01B33E00776590 /* LitterBoxView.swift */; };
+		C6B109B82E07055C0003D2A9 /* KajuPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B109B72E07055C0003D2A9 /* KajuPhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		C689008D2E01B28400776590 /* FeedingScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingScheduleView.swift; sourceTree = "<group>"; };
 		C689008F2E01B29200776590 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C68900912E01B33E00776590 /* LitterBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitterBoxView.swift; sourceTree = "<group>"; };
+		C6B109B72E07055C0003D2A9 /* KajuPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KajuPhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				C689008D2E01B28400776590 /* FeedingScheduleView.swift */,
 				C689008F2E01B29200776590 /* SettingsView.swift */,
 				C68900912E01B33E00776590 /* LitterBoxView.swift */,
+				C6B109B72E07055C0003D2A9 /* KajuPhotoView.swift */,
 			);
 			path = Kaju;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				C689005C2E019A1A00776590 /* KajuApp.swift in Sources */,
 				C68900922E01B33E00776590 /* LitterBoxView.swift in Sources */,
 				C689008E2E01B28400776590 /* FeedingScheduleView.swift in Sources */,
+				C6B109B82E07055C0003D2A9 /* KajuPhotoView.swift in Sources */,
 				C689008C2E01B27000776590 /* HealthTrackerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,7 +453,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CatCare/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Kaju/Preview Content\"";
 				DEVELOPMENT_TEAM = 42A9RV56AS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -463,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dhairy.Kaju;
+				PRODUCT_BUNDLE_IDENTIFIER = CatCare.Kaju;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -478,7 +482,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CatCare/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Kaju/Preview Content\"";
 				DEVELOPMENT_TEAM = 42A9RV56AS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -492,7 +496,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dhairy.Kaju;
+				PRODUCT_BUNDLE_IDENTIFIER = CatCare.Kaju;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -1,29 +1,31 @@
 import UserNotifications
+import SwiftUI
 
 class NotificationManager {
     static let shared = NotificationManager()
 
-    func requestPermission() {
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, _ in
-            if granted {
-                print("✅ Notification permission granted")
-            }
-        }
-    }
+    private init() {}
 
-    func scheduleLitterReminder() {
+    func scheduleLitterReminder(hour: Int, minute: Int) {
+        // removes old notif
+        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["litterReminder"])
+
+
+        // build notification
         let content = UNMutableNotificationContent()
-        content.title = "Litter Reminder!"
-        content.body = "Time to clean Kaju's litter box!"
-        content.sound = .defaultCritical
+        content.title = "Kaju's Litterbox"
+        content.body = "Don't forget to clean Kaju’s litterbox!"
+        content.sound = .default
 
         var dateComponents = DateComponents()
-        dateComponents.hour = 20 // 10 pm
-        dateComponents.minute = 30
+        dateComponents.hour = hour
+        dateComponents.minute = minute
 
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         let request = UNNotificationRequest(identifier: "litterReminder", content: content, trigger: trigger)
 
         UNUserNotificationCenter.current().add(request)
+        // i thank ai for this
+        print("Reminder scheduled at \(hour):\(String(format: "%02d", minute))")
     }
 }
